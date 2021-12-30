@@ -1,0 +1,50 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container {
+    flex: 1;
+    margin: auto;
+    margin-top: 100px;
+}
+
+a.botao  {
+    background-image: linear-gradient(158deg, rgba(48,48,157,1) 8%, rgba(14,46,218,1) 36%, rgba(0,212,255,1) 100%);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px blue;
+    text-decoration: none;
+}
+a.botao:hover  {
+    background-image: linear-gradient(326deg, rgba(157,72,48,1) 4%, rgba(218,14,87,1) 53%, rgba(255,179,0,1) 100%);
+    color: rgb(226, 212, 24);
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgb(255, 187, 0);
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    color: rgb(218, 214, 214);
+    padding: 10px 0 10px 0;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer a.footer {
+    color: white;
+    text-decoration: none;    
+
+}
+footer a.footer:hover {
+    text-decoration: underline; 
+} 
